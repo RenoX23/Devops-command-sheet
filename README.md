@@ -20,7 +20,7 @@ Plan → Code → Build → Test → Package → Deploy → Operate → Monitor
 
 🖥️ Essential Linux Terminal Commands (Ubuntu)
 
-Non-negotiable for labs
+- Non-negotiable for labs
 
 📂 File & Directory Operations:
 ```bash
@@ -74,9 +74,9 @@ git merge feature
 ```
 🔐 Authentication (CDAC)
 
-HTTPS + GitHub Token (mandatory)
+- HTTPS + GitHub Token (mandatory)
 
-SSH (optional / advanced)
+- SSH (optional / advanced)
 
 ⚙️ Jenkins (Continuous Integration Engine)
 ✅ Setup Checklist
@@ -89,9 +89,9 @@ Admin user created
 
 🏗 Job Types
 
-Freestyle Project (CDAC favorite)
+- Freestyle Project (CDAC favorite)
 
-Pipeline (Declarative) – advanced
+- Pipeline (Declarative) – advanced
 
 🔁 Freestyle Job Flow
 
@@ -166,13 +166,13 @@ docker stop <container_id>
 1️⃣ GitHub Assignment (Foundation)
 Objective
 
-Create repository
+- Create repository
 
-Perform Git operations from Ubuntu
+- Perform Git operations from Ubuntu
 
-Push code successfully
+- Push code successfully
 
-Steps Performed
+- Steps Performed
 
 ```bash
 sudo apt update
@@ -236,17 +236,17 @@ IAM User: devops-engineer-user
 
 Policies:
 
-  EC2FullAccess
+  - EC2FullAccess
 
-  S3FullAccess (if required)
+  - S3FullAccess (if required)
 
-  IAMReadOnlyAccess
+  - IAMReadOnlyAccess
 
 EC2:
 
-  Type: t3.micro
+  - Type: t3.micro
 
-  Region: ap-south-1
+  - Region: ap-south-1
 
 ```bash
 ssh -i devops-lab-key.pem ec2-user@<public-ip>
@@ -258,6 +258,6 @@ aws sts get-caller-identity
 
 🔒 Final CDAC Rule (Tattoo This)
 
-IAM Roles > Access Keys
-Root User = NEVER
+- IAM Roles > Access Keys
+- Root User = NEVER
 
